@@ -1,8 +1,3 @@
 config-management:
   name: 'UAT'
   secretValue: "{cipher}12ed3451626f34b2571000e50edb24bf5479e67c84be16ee2518fbf9e342eafe5dc499169f376b3f991cadf1ff2eaec7f558e444b5cdce5d19a69c7f56c22963"
-  availability:
-    - country: "Switzerland"
-      service: "Service1"
-    - country: "England"
-      service: "Service2"
