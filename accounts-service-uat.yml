@@ -4,6 +4,6 @@ config-management:
   availability:
     - country: "Denmark"
       service: "Service1"
-    - country: "England"
+    - country: "England222"
       service: "Service2"
 
