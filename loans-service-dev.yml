@@ -1,7 +1,7 @@
 config-management:
-  name: '{cipher}9ac1e08b1d211532935e461c4e83907ad6ff743c36293a5ecebe70b5ce3f25c5cb683824c89bb586e282f41be846caa5'
+  name: '{cipher}66fe12b031a3c9ed8fbd266bfe61090c4f6d114b7fcbf8fa51f3809c904435de94bc61e1dfa5d482f76b3aec42b5090832dc615fe33d366d9024087ce8f6d8b5'
   loansAvailability:
-    - country: "France"
+    - country: "Franc2e"
       service: "Service3"
     - country: "Japon"
       service: "Service4"
