@@ -21,7 +21,7 @@ spring:
 
 config-management:
   name: 'DEFAULT'
-  secretValue: "{cipher}12ed3451626f34b2571000e50edb24bf5479e67c84be16ee2518fbf9e342eafe5dc499169f376b3f991cadf1ff2eaec7f558e444b5cdce5d19a69c7f56c22963"
+  secretValue: "{cipher}2816379cef838ea5c03a85208d91c9deeda1cf0e49c4882e35b1265c0b1af259c5563cc15bb1a6979e3a9aebe43bd5587f62029ee8436ff83d270e7fe3a714c8"
   availability:
     - country: "Brazil"
       service: "Service6"
