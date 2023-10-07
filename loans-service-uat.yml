@@ -1,0 +1,8 @@
+config-management:
+  name: 'UAT'
+  secretValue: "{cipher}c93b5f8224c4d0b7f8765530f28424d822d1895f3f2a30d7dc6202e1d4a2b3df785ae163f8f8248f7b37001bad7d496d"
+  loansAvailability:
+    - country: "Switzerland"
+      service: "Service1"
+    - country: "England"
+      service: "Service2"

@@ -1,0 +1,12 @@
+spring:
+  config:
+    activate:
+      on-profile: 'uat'
+config-management:
+  name: 'UAT'
+  secretValue: "{cipher}e5f282258fb21618fa628020b3b61a638a20e8183fcaf6dae60b20d28ea1c46e57e96e55c2f23bf92402b3c33362fa5a"
+  cardsAvailability:
+    - country: "Switzerland"
+      service: "Service1"
+    - country: "England"
+      service: "Service2"

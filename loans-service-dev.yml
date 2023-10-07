@@ -1,0 +1,8 @@
+config-management:
+  name: 'DEV'
+  secretValue: "{cipher}9ac1e08b1d211532935e461c4e83907ad6ff743c36293a5ecebe70b5ce3f25c5cb683824c89bb586e282f41be846caa5"
+  loansAvailability:
+    - country: "France"
+      service: "Service3"
+    - country: "Japon"
+      service: "Service4"

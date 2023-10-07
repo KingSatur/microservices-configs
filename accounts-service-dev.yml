@@ -1,0 +1,8 @@
+config-management:
+  name: 'DEV'
+  secretValue: "{cipher}d7a9b0a4626db14db57d9980d55515a88b12f588e5275d56b27e494b1628650623607d999b90931723323d761507c794f7c9b823a7048097aab747615d2982ca"
+  availability:
+    - country: "France"
+      service: "Service3"
+    - country: "Japon"
+      service: "Service4"
