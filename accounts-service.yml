@@ -5,7 +5,7 @@ server:
 spring:
   datasource:
     driverClassName: org.postgresql.Driver
-    url: "{cipher}d4970b3424b4ae5771cb7b94b463e4b9996968340c517067cf4d2fd48095d168c656b8da29cd7106162cc2d201ddb73c081e831ba4bfa4521eb9fafa3c41b444"
+    url: "{cipher}db98873b84915bbd1b8f8945eb63c27bfab2948a5b91601ea86edfc416c81acb6db94d37fcddcccc01623d08145d8787febace6f732bc97b2805987abf3a62f8"
     username: "{cipher}60964411b8a01470964ffc1b612d45aed2aba671cfea89f72ea36fa7a8e17ce3"
     password: "{cipher}d561dc23d63b81962403467bbdcea2c0f3c1ff21ca5f6eb30417901db95b4bc0"
   jpa:
