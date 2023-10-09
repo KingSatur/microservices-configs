@@ -10,6 +10,7 @@ spring:
     sql:
       init:
         mode: always
+    show-sql: true
   application:
     name: accounts-service
 
