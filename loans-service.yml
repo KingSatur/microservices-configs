@@ -5,6 +5,9 @@ server:
 spring:
   datasource:
     driverClassName: org.postgresql.Driver
+    url: "{cipher}d7a61b6d068950fe0fb137b04c406448d0e7312c5aec542db6362f6fd105dfc5867ba445d2a4c74dc296e5040786e9eab62791a7279fd546c04a76f141a5139e"
+    username: "{cipher}60964411b8a01470964ffc1b612d45aed2aba671cfea89f72ea36fa7a8e17ce3"
+    password: "{cipher}d561dc23d63b81962403467bbdcea2c0f3c1ff21ca5f6eb30417901db95b4bc0"
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQL10Dialect
     sql:
