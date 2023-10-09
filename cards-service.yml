@@ -4,15 +4,10 @@ server:
     context-path: /cards
 spring:
   datasource:
-    url: jdbc:h2:mem:testdb
-    driverClassName: org.h2.Driver
-    username: sa
-    password: ''
-  h2:
-    console:
-      enabled: true
+    driverClassName: org.postgresql.Driver
   jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
-    hibernate:
-      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQL10Dialect
+    sql:
+      init:
+        mode: always
     show-sql: true
