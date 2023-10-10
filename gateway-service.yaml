@@ -1,1 +1,25 @@
-12321132
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: accounts-service
+          uri: lb://accounts-service
+          predicates:
+            - Path=/api/accounts/**
+          filters:
+            - RewritePath=/api/accounts/(?<segment>.*), /accounts/${segment}
+        - id: loans-service
+          uri: lb://loans-service
+          predicates:
+            - Path=/api/loans/**
+          filters:
+            - RewritePath=/api/loans/(?<segment>.*), /loans/${segment}
+        - id: cards-service
+          uri: lb://cards-service
+          predicates:
+            - Path=/api/cards/**
+          filters:
+            - RewritePath=/api/cards/(?<segment>.*), /cards/${segment}
