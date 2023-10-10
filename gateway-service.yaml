@@ -23,3 +23,9 @@ spring:
             - Path=/api/cards/**
           filters:
             - RewritePath=/api/cards/(?<segment>.*), /cards/${segment}
+
+logging:
+  level:
+    com:
+      dalearner:
+        gateway: DEBUG
