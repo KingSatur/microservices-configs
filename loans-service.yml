@@ -23,7 +23,11 @@ config-management:
       service: "Service6213"
     - country: "Canada"
       service: "Service834"
-
+logging:
+  level:
+    com:
+      dalearner:
+        gateway: DEBUG
 management:
   endpoints:
     web:
