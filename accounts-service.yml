@@ -14,9 +14,6 @@ spring:
       init:
         mode: always
     show-sql: true
-  application:
-    name: accounts-service
-
 config-management:
   name: 'DEFAULT'
   secretValue: "{cipher}2816379cef838ea5c03a85208d91c9deeda1cf0e49c4882e35b1265c0b1af259c5563cc15bb1a6979e3a9aebe43bd5587f62029ee8436ff83d270e7fe3a714c8"
