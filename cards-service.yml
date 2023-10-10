@@ -15,6 +15,14 @@ spring:
         mode: always
     show-sql: true
 
+config-management:
+  name: '{cipher}602f4883ea9d4546ee306c1312dacde1424ef9ab552b6517cea014c6ddef38cc703067c397581065664259aafbfa96b3c7bbd2c7e2e661c2f20b804eec96aa28'
+  availability:
+    - country: "Holanda"
+      service: "Service6"
+    - country: "Chile"
+      service: "Service8"
+
 management:
   endpoints:
     web:
