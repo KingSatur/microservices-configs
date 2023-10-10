@@ -27,7 +27,7 @@ logging:
   level:
     com:
       dalearner:
-        gateway: DEBUG
+        loans: DEBUG
 management:
   endpoints:
     web:
