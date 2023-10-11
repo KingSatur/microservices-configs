@@ -4,6 +4,10 @@ spring:
     url: "{cipher}db98873b84915bbd1b8f8945eb63c27bfab2948a5b91601ea86edfc416c81acb6db94d37fcddcccc01623d08145d8787febace6f732bc97b2805987abf3a62f8"
     username: "{cipher}60964411b8a01470964ffc1b612d45aed2aba671cfea89f72ea36fa7a8e17ce3"
     password: "{cipher}d561dc23d63b81962403467bbdcea2c0f3c1ff21ca5f6eb30417901db95b4bc0"
+management:
+  metrics:
+    tags:
+      application: ${spring.application.name}
 config-management:
   name: 'DEV'
   secretValue: "{cipher}d7a9b0a4626db14db57d9980d55515a88b12f588e5275d56b27e494b1628650623607d999b90931723323d761507c794f7c9b823a7048097aab747615d2982ca"
