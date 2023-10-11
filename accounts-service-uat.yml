@@ -4,7 +4,10 @@ spring:
     url: "{cipher}db98873b84915bbd1b8f8945eb63c27bfab2948a5b91601ea86edfc416c81acb6db94d37fcddcccc01623d08145d8787febace6f732bc97b2805987abf3a62f8"
     username: "{cipher}60964411b8a01470964ffc1b612d45aed2aba671cfea89f72ea36fa7a8e17ce3"
     password: "{cipher}d561dc23d63b81962403467bbdcea2c0f3c1ff21ca5f6eb30417901db95b4bc0"
-
+management:
+  metrics:
+    tags:
+      application: ${spring.application.name}
 config-management:
   name: 'UAT'
   secretValue: "{cipher}12ed3451626f34b2571000e50edb24bf5479e67c84be16ee2518fbf9e342eafe5dc499169f376b3f991cadf1ff2eaec7f558e444b5cdce5d19a69c7f56c22963"
