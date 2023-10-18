@@ -21,6 +21,11 @@ management:
   metrics:
     tags:
       application: ${spring.application.name}
+logging:
+  level:
+    com:
+      dalearner:
+        loans: DEBUG
 config-management:
   name: '{cipher}66fe12b031a3c9ed8fbd266bfe61090c4f6d114b7fcbf8fa51f3809c904435de94bc61e1dfa5d482f76b3aec42b5090832dc615fe33d366d9024087ce8f6d8b5'
   loansAvailability:
