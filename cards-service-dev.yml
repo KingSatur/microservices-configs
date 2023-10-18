@@ -24,6 +24,11 @@ management:
   metrics:
     tags:
       application: ${spring.application.name}
+logging:
+  level:
+    com:
+      dalearner:
+        cards: DEBUG
 config-management:
   name: 'DEV'
   secretValue: "{cipher}b06333fb71ae72f3b44fbc5a4a2e92e014bfa83775c3fad65c2959a678ab27dbf2c91503c17719cdf78918433c2394eb"
