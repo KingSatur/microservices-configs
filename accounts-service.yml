@@ -25,7 +25,7 @@ spring:
         sendCommunication-out-0:
           destination: send-communication
   rabbitmq:
-    host: "{cipher}3153118aa5b63bba9578d1cf9ebe8d36c3f72071e1106500900f0e2200407889"
+    host: "{cipher}fdcf48f412ebbd0861b38c2150c6aeb6f9a2bc40f4ac1ae5bf6d56b9ec39ef98"
     port: 5672
     username: "{cipher}e14dfce545ac55bccc46e14db7378a2319f2dcc266f0853d6f05bc7af0b96ccf"
     password: "{cipher}0a666e52cbc84c3b87fccf8b16720b4a6fd650538bc158259e6e553a7938f918"
