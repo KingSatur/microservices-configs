@@ -12,8 +12,8 @@ spring:
         emailsms-out-0:
           destination: communication-sent
   rabbitmq:
-    host: localhost
+    host: "{cipher}595020576e3f941c2dd61aac1713380893aca0bb45936b0d4e215936c16b480b"
     port: 5672
-    username: guest
-    password: guest
+    username: "{cipher}e14dfce545ac55bccc46e14db7378a2319f2dcc266f0853d6f05bc7af0b96ccf"
+    password: "{cipher}0a666e52cbc84c3b87fccf8b16720b4a6fd650538bc158259e6e553a7938f918"
     connection-timeout: 10s
