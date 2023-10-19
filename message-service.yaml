@@ -17,3 +17,7 @@ spring:
     username: "{cipher}e14dfce545ac55bccc46e14db7378a2319f2dcc266f0853d6f05bc7af0b96ccf"
     password: "{cipher}0a666e52cbc84c3b87fccf8b16720b4a6fd650538bc158259e6e553a7938f918"
     connection-timeout: 10s
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: "{cipher}a5ef34ea8d67b8fede2f1bbf745f1ab723196a9bc3d1a48703ae5992a8fbc73b57223ee3341ed50c3a50a8b2e4821c417a506287394990b0577864bc671d2d4c"
