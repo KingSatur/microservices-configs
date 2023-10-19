@@ -23,4 +23,4 @@ eureka:
   client:
     fetchRegistry: true
     registerWithEureka: true
-      defaultZone: "{cipher}a5ef34ea8d67b8fede2f1bbf745f1ab723196a9bc3d1a48703ae5992a8fbc73b57223ee3341ed50c3a50a8b2e4821c417a506287394990b0577864bc671d2d4c"
+      defaultZone: http://discovery-ms:8075/eureka/
