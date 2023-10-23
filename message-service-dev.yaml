@@ -16,3 +16,6 @@ logging:
     com:
       dalearner:
         accounts: DEBUG
+eureka:
+  client:
+    enabled: true
