@@ -11,6 +11,12 @@ spring:
           group: ${spring.application.name}
         emailsms-out-0:
           destination: communication-sent
+  rabbitmq:
+    host: "{cipher}e293fb510bc61083f53c806f25fb40714f0e56681f8dfee54e57b6025c0a4117c37a4cd59b8e5ad0aedcdc127e2fea36ad6fb7908511b6591ac06a759786769d"
+    port: 5672
+    username: "{cipher}7b5c4d699a522de285956af5769c9b7c5a41ee43dd12c7391f9202cd9331a5cf"
+    password: "{cipher}c4a1003c15dee4c30f300faa5f6ff62ca84aac9fb3c6e758eaaca98c04b056fa"
+    connection-timeout: 10s
 logging:
   level:
     com:
