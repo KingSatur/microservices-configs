@@ -34,3 +34,6 @@ config-management:
       service: "Service3"
     - country: "Japon"
       service: "Service4"
+eureka:
+  client:
+    enabled: true
