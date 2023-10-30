@@ -6,19 +6,19 @@ spring:
           enabled: true
       routes:
         - id: accounts-service
-          uri: lb://accounts-service
+          uri: http://accounts:8080
           predicates:
             - Path=/api/accounts/**
           filters:
             - RewritePath=/api/accounts/(?<segment>.*), /accounts/${segment}
         - id: loans-service
-          uri: lb://loans-service
+          uri: http://loans:8090
           predicates:
             - Path=/api/loans/**
           filters:
             - RewritePath=/api/loans/(?<segment>.*), /loans/${segment}
         - id: cards-service
-          uri: lb://cards-service
+          uri: http://cards:9000
           predicates:
             - Path=/api/cards/**
           filters:
